@@ -1,0 +1,46 @@
+/* index */
+
+h1 {
+    color:#6c6c6c;
+    font-family: Garamond, Georgia, serif;
+    font-weight:100;
+    text-align:justify;
+    width: 100%;
+
+}
+
+html { 
+    font-size:16px; 
+
+}
+
+/*evenly disperse the images and recipe links*/
+.flex-container {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-image,
+.flex-text {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+  }
+
+.flex-text {
+    font-family: Garamond, Georgia, serif;
+    font-color: #6c6c6c;
+}
+  
+/*remove hyperlink color changes*/
+a:link, a:visited, a:hover, a:active {
+    color:#6c6c6c;
+    text-decoration: none;
+}
