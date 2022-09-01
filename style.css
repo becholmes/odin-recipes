@@ -1,13 +1,18 @@
 /* index */
 
-h1 {
+.wrapper {
     color:#6c6c6c;
     font-family: Garamond, Georgia, serif;
     font-weight:100;
-    text-align:justify;
-    width: 100%;
-
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+  
 
 html { 
     font-size:16px; 
@@ -36,7 +41,7 @@ html {
 
 .flex-text {
     font-family: Garamond, Georgia, serif;
-    font-color: #6c6c6c;
+    color: #6c6c6c;
 }
   
 /*remove hyperlink color changes*/
